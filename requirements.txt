@@ -24,8 +24,7 @@ pytest
 ubelt
 xdoctest>=0.10.0
 yapf
-torch==1.13.1
-torchvision==0.14.1
-torchaudio==0.13.1 
-mmcv-full==1.7.0 -f https://download.openmmlab.com/mmcv/dist/cu116/torch1.13.0/index.html
-
+torch==1.11.0   --extra-index-url https://download.pytorch.org/whl/cu113
+torchvision==0.12.0 --extra-index-url https://download.pytorch.org/whl/cu113
+torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+mmcv-full==1.6.0 -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11.0/index.html
