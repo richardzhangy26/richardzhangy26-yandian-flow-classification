@@ -3,7 +3,7 @@ import gradio as gr
 import os 
 import gradio as gr
 import os
-from video_flow_inference import inference_video
+# from video_flow_inference import inference_video
 from test import infer
 from test import extract_frames
 import torch
@@ -114,7 +114,8 @@ def record_content(records,level,vertical,axial,intensity,record_start,record_en
     records["结束帧"][i] = record_end
     i = i + 1
     return records
-
+def inference_video(video):
+    return video
 # from label.test import infer
 def video_identity(video):
     out_video = inference_video(video)
