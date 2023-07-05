@@ -211,4 +211,4 @@ with gr.Blocks(theme="freddyaboulton/dracula_revamped",title="BPPV智能辅助�
 
 if __name__ == "__main__":
     gr.themes.Base(primary_hue="red")
-    demo.launch(share=True)
+    demo.launch(share=False)
